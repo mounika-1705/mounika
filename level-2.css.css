@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard {
+    display: grid;
+    grid-template-columns: 300px 1000px;
+    grid-template-rows: 380px 80px;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+  }
+  
+  .sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    background-color: #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    height: 15px;
+    display: flex;
+    width: 250px;
+  }
+  
+  .content {
+    background-color: #e2ccc4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+  }
+  
+  .content .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .content .card {
+    background-color: #e8f0fe;
+    padding: 5px;
+    font-size: 0.9em;
+    text-align: center;
+    height: 50px;
+    width: 290px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .progress {
+    background-color: #d1f7c4;
+    grid-column: span 2;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;;
+  
+  }
+  h4 {
+    margin-bottom: 0%;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f20202;
+    color: #fdfffc;
+  }
+  
+  .nav_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    width: 1320px;
+  }
+  
+  .nav_div .logo {
+    font-size: 1.5em;
+    margin-right: 20px; /* Add space between logo and nav items */
+  }
+  
+  .nav_div .nav-links {
+    display: flex;
+    margin-left: 50%;
+  }
+  
+  .nav_div .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px; /* Add padding to nav items */
+  }
+  
+  .nav_div .buttons {
+    display: flex;
+    gap: 10px; /* Add space between buttons */
+    margin-left: 20px; /* Add space between nav items and buttons */
+  }
+  
+  .nav_div .buttons button {
+    margin: 0 10px;
+  }
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+  }
